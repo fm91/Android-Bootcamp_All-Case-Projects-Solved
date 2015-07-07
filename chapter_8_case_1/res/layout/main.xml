@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+  <ImageView
+      android:id="@+id/imgMarlin"
+      android:layout_width="220dp"
+      android:layout_height="685dp"
+      android:src="@drawable/marlin" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+      <TableLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+<TableRow>
+<View android:layout_height="80dp"/>
+
+<TextView
+    android:id="@+id/txtTitle"
+    android:layout_width="wrap_content"
+    android:layout_gravity="left"
+    android:background="#000000"
+    android:padding="50dp"
+    android:text="Oasis Day Spa in Historic Dublain, Ireland"
+    android:textSize="39sp"
+    android:typeface="serif" />
+
+</TableRow>
+<TableRow>
+<View android:layout_height="80dp"/>
+
+<TextView
+    android:id="@+id/txtDescription"
+    android:layout_width="wrap_content"
+    android:layout_gravity="left"
+    android:padding="25dp"
+    android:text="Oasis is full-service day spa providing a refreshing, modern, and rejuvenating environment right next to the famous Dublain Castle. Oasis is a complete body shop carrying over 30 lines of conditionning, innovative and effective skin, nail and hair care products."
+    android:textSize="30sp" />
+
+</TableRow>
+<TableRow>
+<View android:layout_height="80dp"/>
+
+<TextView
+    android:id="@+id/txtAddress"
+    android:layout_width="wrap_content"
+    android:gravity="right"
+    android:padding="25dp"
+    android:text="845 Dawson Street Dublin, Ireland 383-1-555-7834"
+    android:textSize="30sp" />
+
+</TableRow>
+<TableRow>
+<View android:layout_height="80dp"/>
+
+<Button
+    android:id="@+id/btnDate"
+    android:layout_width="100dp"
+    android:background="#222222"
+    android:padding="30dp"
+    android:text="Book a Full-Day Body Spa Treatment"
+    android:textColor="#FFFFFF"
+    android:textSize="40sp" />
+
+</TableRow>
+<TableRow>
+<View android:layout_height="80dp"/>
+<TextView
+android:id="@+id/txtReservation"
+android:padding="20dp"
+android:layout_gravity="center"
+android:textSize="36sp" />
+</TableRow>
+</TableLayout>
+</TableLayout>
+</LinearLayout>

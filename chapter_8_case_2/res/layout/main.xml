@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+  <ImageView
+      android:id="@+id/imgMarlin"
+      android:layout_width="220dp"
+      android:layout_height="685dp"
+      android:src="@drawable/marlin" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+      <TableLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+<TableRow>
+<View android:layout_height="80dp"/>
+
+<TextView
+    android:id="@+id/txtTitle"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="#000000"
+    android:gravity="center"
+    android:padding="50dp"
+    android:text="Washington D.C. Walking Tour"
+    android:textSize="39sp"
+    android:typeface="serif" />
+
+</TableRow>
+
+<TableRow>
+
+    <View android:layout_height="80dp" />
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="100dp"
+        android:background="#222222"
+        android:padding="30dp"
+        android:text="Walk with Us - Select the Day"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+</TableRow>
+
+<TableRow>
+
+<View android:layout_height="80dp"/>
+
+<TextView
+    android:id="@+id/txtDescription"
+    android:layout_width="wrap_content"
+    android:layout_gravity="left"
+    android:padding="25dp"
+    android:text="Washington D.C. Walking tours is pleased to present the best, tip-based walking tours of Washington D.C. There interesting and informative yours will take you from the national mail to Arlington Cemetery to the Pentagon and beyond. See the capital of the United States of America and enjoy the history and politics of a nation."
+    android:textSize="30sp" />
+
+</TableRow>
+
+<TableRow>
+
+<View android:layout_height="80dp"/>
+
+<TextView
+    android:id="@+id/txtAddress"
+    android:layout_width="wrap_content"
+    android:gravity="right"
+    android:padding="25dp"
+    android:textSize="30sp" />
+
+</TableRow>
+<TableRow>
+<View android:layout_height="80dp"/>
+<TextView
+android:id="@+id/txtReservation"
+android:padding="20dp"
+android:layout_gravity="center"
+android:textSize="36sp" />
+</TableRow>
+</TableLayout>
+</TableLayout>
+</LinearLayout>
